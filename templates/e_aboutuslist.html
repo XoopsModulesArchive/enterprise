@@ -1,0 +1,11 @@
+<p><b><{$e_aboutus_msg}></b></p>
+<table width="400px" border="0" cellpadding="0" cellspacing="0">
+<{foreach item=e_aboutus from=$e_aboutuslist}>
+<tr><td>
+<li><{$e_aboutus.title}></li>
+</td><td><{$e_aboutus.del}></td></tr>
+<{/foreach}>
+<tr><td colspan="2">&nbsp;</td></tr> 
+<tr><td><p><b><{$e_aboutus_insert}></b></p></td>
+<td><p><b><{$e_aboutus_return}></b></p></td></tr> 
+</table>

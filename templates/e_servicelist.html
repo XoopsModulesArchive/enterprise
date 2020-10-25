@@ -1,0 +1,11 @@
+<p><b><{$e_service_msg}></b></p>
+<table width="400px" border="0" cellpadding="0" cellspacing="0">
+<{foreach item=e_service from=$e_servicelist}>
+<tr><td>
+<li><{$e_service.title}></li>
+</td><td><{$e_service.del}></td></tr>
+<{/foreach}>
+<tr><td colspan="2">&nbsp;</td></tr> 
+<tr><td><p><b><{$e_service_insert}></b></p></td>
+<td><p><b><{$e_service_return}></b></p></td></tr> 
+</table>

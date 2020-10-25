@@ -1,0 +1,11 @@
+<p><b><{$e_case_msg}></b></p>
+<table width="500px" border="0" cellpadding="0" cellspacing="0">
+<{foreach item=e_case from=$e_caselist}>
+<tr><td>
+<li><{$e_case.title}></li>
+</td><td><{$e_case.del}></td></tr>
+<{/foreach}>
+<tr><td colspan="2">&nbsp;</td></tr> 
+<tr><td><p><b><{$e_case_insert}></b></p></td>
+<td><p><b><{$e_case_return}></b></p></td></tr> 
+</table>
